@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup_page.css">
+    <title>Document</title>
+</head>
+<body >
+    <div class="center">
+        <h1>Signup</h1>
+        <form action="http://localhost/covid/signup_page.php" method="POST">
+         
+            <div class="text_field">
+                <input type="text" required name="Username">
+                <span></span>
+                <label>Full Name</label>
+            </div>
+
+            <div class="text_field">
+                <input type="text" required name="Email">
+                <span></span>
+                <label>Email</label>
+            </div>
+
+            <div class="text_field">
+                <input type="text" required name="Phone">
+                <span></span>
+                <label>Phone</label>
+            </div>
+
+            <div class="text_field">
+                <input type="password" required name="Password">
+                <span></span>
+                <label>password</label>
+            </div>
+
+            <div class="text_field">
+                <input type="text" required name="Cpassword">
+                <span></span>
+                <label>Confirm Password</label>
+            </div>
+
+            <!-- <div class="pass">forget password?</div> -->
+            <input type="submit" name="register" value="register">
+            <div class="login">
+                Already a member? <a href="login_page.html">login</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

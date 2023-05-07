@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(134 135 137);
+}
+h1{ 
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    color: #696868;
+}
+p{
+    text-align: center;
+    margin-top: 50px;
+}
+.support{
+    font-size: medium;
+    text-align: center;
+}
+.qut{
+    text-align: center;
+    margin-top: 20px;
+}
+.copyright{
+    margin-top: 25%;
+    text-align: center;
+}
+body.img{
+    margin-top: 10%;
+    align-items: center;
+}

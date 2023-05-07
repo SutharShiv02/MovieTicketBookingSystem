@@ -1,0 +1,3 @@
+Project Description: Movie Ticket Booking System
+
+The movie ticket booking system is a web application developed using HTML, CSS, Bootstrap, PHP, and SQL. It is designed to allow users to browse and book tickets for movies online. The system is developed as a part of the database management system subject project, with the objective to build a robust and efficient system that can handle the requirements of a movie ticket booking system.
